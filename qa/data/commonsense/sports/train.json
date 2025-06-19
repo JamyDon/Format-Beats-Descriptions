@@ -1,0 +1,36 @@
+{
+    "examples": [
+        {
+            "input": "Jarrett Allen got on base",
+            "target_scores": {
+                "plausible": 0,
+                "implausible": 1
+            },
+            "A": "Jarrett Allen is a professional basketball player, not a baseball player. 'Got on base' is a baseball term. So the statement is implausible."
+        },
+        {
+            "input": "Jack Flaherty pitched a shutout in the National League Championship Series",
+            "target_scores": {
+                "plausible": 1,
+                "implausible": 0
+            },
+            "A": "Jack Flaherty is a professional baseball player and a pitcher for the St. Louis Cardinals, which is part of the National League. Pitching a shutout in the National League Championship Series is plausible. So the statement is plausible."
+        },
+        {
+            "input": "Klaas Jan Huntelaar caught the back shoulder fade",
+            "target_scores": {
+                "plausible": 0,
+                "implausible": 1
+            },
+            "A": "Klaas Jan Huntelaar is a professional soccer player. 'Caught the back shoulder fade' is a term used in American football, not soccer. So the statement is implausible."
+        },
+        {
+            "input": "Jacob Markstrom scored in the shootout in the Stanley Cup",
+            "target_scores": {
+                "plausible": 1,
+                "implausible": 0
+            },
+            "A": "Jacob Markstrom is a professional ice hockey player and a goaltender in the NHL. Scoring in the shootout in the Stanley Cup is plausible for an ice hockey player. So the statement is plausible."
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "examples": [
+        {
+            "input": "How many people watched Seinfeld when it was on the air?",
+            "target_scores": {
+                "76.3 million": 1,
+                "Unknown": 0
+            },
+            "A": "The number of people who watched 'Seinfeld' during its original run is well-documented. The series finale alone was watched by 76.3 million people in the U.S. So the answer is 76.3 million."
+        },
+        {
+            "input": "When was Abraham Lincoln born?",
+            "target_scores": {
+                "February 12, 1809": 1,
+                "Unknown": 0
+            },
+            "A": "The birthdate of Abraham Lincoln is a well-known historical fact. He was born on February 12, 1809. So the answer is February 12, 1809."
+        },
+        {
+            "input": "In the year 2020, how many people in California were homeless?",
+            "target_scores": {
+                "161,548 people": 1,
+                "Unknown": 0
+            },
+            "A": "The number of homeless people in California in 2020 is recorded in official statistics. According to the U.S. Department of Housing and Urban Development, there were 161,548 homeless people in California in 2020. So the answer is 161,548 people."
+        },
+        {
+            "input": "How many fish were eaten by birds in the year 2100 BCE?",
+            "target_scores": {
+                "450,000": 0,
+                "Unknown": 1
+            },
+            "A": "There are no historical records or scientific data that can accurately determine the number of fish eaten by birds in the year 2100 BCE. So the answer is Unknown."
+        }
+    ]
+}

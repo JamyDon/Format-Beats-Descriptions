@@ -1,0 +1,40 @@
+{
+    "examples": [
+        {
+            "input": "In a golf tournament, there were three golfers: Amy, Dan, and Mel. Mel finished above Amy. Dan finished below Amy.",
+            "target_scores": {
+                "Amy finished last.": 0,
+                "Dan finished last.": 1,
+                "Mel finished last.": 0
+            },
+            "A": "Mel finished above Amy, and Dan finished below Amy. Therefore, the order from highest to lowest is Mel, Amy, Dan. So, Dan finished last."
+        },
+        {
+            "input": "In a golf tournament, there were three golfers: Amy, Eli, and Eve. Eve finished above Amy. Eli finished below Amy.",
+            "target_scores": {
+                "Amy finished last.": 0,
+                "Eli finished last.": 1,
+                "Eve finished last.": 0
+            },
+            "A": "Eve finished above Amy, and Eli finished below Amy. Therefore, the order from highest to lowest is Eve, Amy, Eli. So, Eli finished last."
+        },
+        {
+            "input": "On a shelf, there are three books: a white book, a green book, and an orange book. The green book is to the right of the white book. The orange book is the rightmost.",
+            "target_scores": {
+                "The white book is the leftmost.": 1,
+                "The green book is the leftmost.": 0,
+                "The orange book is the leftmost.": 0
+            },
+            "A": "The orange book is the rightmost. The green book is to the right of the white book, making the white book the leftmost. So, the white book is the leftmost."
+        },
+        {
+            "input": "On a shelf, there are three books: a red book, a gray book, and a white book. The white book is to the left of the gray book. The red book is the second from the left.",
+            "target_scores": {
+                "The red book is the leftmost.": 0,
+                "The gray book is the leftmost.": 0,
+                "The white book is the leftmost.": 1
+            },
+            "A": "The red book is second from the left, and the white book is to the left of the gray book. Therefore, the order from left to right is white, red, gray. So, the white book is the leftmost."
+        }
+    ]
+}

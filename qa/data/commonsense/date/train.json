@@ -1,0 +1,51 @@
+{
+    "examples": [
+        {
+            "input": "Jane thought today is 3/11/2002, but today is in fact Mar 12, which is 1 day later. What is the date one year ago from today in MM/DD/YYYY?",
+            "target_scores": {
+                "03/12/2001": 1,
+                "03/18/2001": 0,
+                "03/12/2085": 0,
+                "03/13/2001": 0,
+                "03/12/2000": 0,
+                "05/18/2001": 0
+            },
+            "A": "Today is Mar 12, which is 03/12/2002. One year ago from today would be the same date but in the previous year, which is 03/12/2001. So the answer is 03/12/2001."
+        },
+        {
+            "input": "The deadline is Jun 1, 2021, which is 2 days away from now. What is the date 10 days ago in MM/DD/YYYY?",
+            "target_scores": {
+                "05/20/2021": 1,
+                "04/29/2021": 0,
+                "05/21/2021": 0,
+                "04/06/2021": 0,
+                "06/24/2021": 0
+            },
+            "A": "Jun 1, 2021 is 2 days away from now, so today is May 30, 2021. 10 days ago from May 30, 2021 is May 20, 2021. So the answer is 05/20/2021."
+        },
+        {
+            "input": "Jane was born on the last day of Feburary in 2000. Today is her 16-year-old birthday. What is the date 10 days ago in MM/DD/YYYY?",
+            "target_scores": {
+                "02/19/2016": 1,
+                "02/12/2016": 0,
+                "02/19/1979": 0,
+                "02/20/2016": 0,
+                "02/19/2105": 0,
+                "01/09/2016": 0
+            },
+            "A": "Jane was born on the last day of February in 2000, which is 02/29/2000. Today is her 16-year-old birthday, so today is 02/29/2016. 10 days ago from 02/29/2016 is 02/19/2016. So the answer is 02/19/2016."
+        },
+        {
+            "input": "It was Sept. 1st, 2021 a week ago. What is the date 10 days ago in MM/DD/YYYY?",
+            "target_scores": {
+                "08/29/2021": 1,
+                "09/19/2021": 0,
+                "05/25/2021": 0,
+                "08/30/2021": 0,
+                "08/29/1925": 0,
+                "08/28/2021": 0
+            },
+            "A": "Sept. 1st, 2021 was a week ago, so today is Sept. 8, 2021. 10 days ago from Sept. 8, 2021 is Aug. 29, 2021. So the answer is 08/29/2021."
+        }
+    ]
+}
