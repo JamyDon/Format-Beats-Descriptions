@@ -70,3 +70,17 @@ In order to evaluate our proposed prompt template in different dimensions, we se
 1. Refer to the architecture (optional) and format of the existing datasets and put your new dataset into [data]().
 2. Inherit `ReasoningData` defined in [data_loader.py]() and overwrite corresponding methods according to your new dataset.
 3. Add `@dateset_register` for your child class.
+
+### Citation
+If you find our work helpful, feel free to cite us:
+```
+@misc{tang2025largelanguagemodelscare,
+      title={Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions}, 
+      author={Chenming Tang and Zhixiang Wang and Hao Sun and Yunfang Wu},
+      year={2025},
+      eprint={2408.08780},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.08780}, 
+}
+```
