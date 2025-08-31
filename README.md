@@ -73,7 +73,7 @@ In order to evaluate our proposed prompt template in different dimensions, we se
 2. Inherit `ReasoningData` defined in [data_loader.py]() and overwrite corresponding methods according to your new dataset.
 3. Add `@dateset_register` for your child class.
 
-### Citation
+## Citation
 If you find our work helpful, feel free to cite us:
 ```
 @misc{tang2025largelanguagemodelscare,
