@@ -1,6 +1,6 @@
 # Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions
 
-Source code of our EMNLP 2024 (Main) paper **Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions**.
+Source code of our EMNLP 2025 Findings paper **Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions**.
 
 [[arXiv Preprint]](https://arxiv.org/abs/2408.08780])
 
