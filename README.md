@@ -2,7 +2,7 @@
 
 Source code of our EMNLP 2025 Findings paper **Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions**.
 
-[[arXiv Preprint]](https://arxiv.org/abs/2408.08780])
+[[Paper Link]](https://aclanthology.org/2025.findings-emnlp.3/)
 
 ## Prerequisites
 ```bash
