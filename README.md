@@ -2,6 +2,7 @@
 
 [![arXiv](https://img.shields.io/badge/EMNLP_2025_Finding-3-red.svg)](https://aclanthology.org/2025.findings-emnlp.3/)
 [![arXiv](https://img.shields.io/badge/arXiv-2408.08780-b31b1b.svg?logo=arxiv)](https://arxiv.org/abs/2408.08780)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?logo=apache)](LICENSE)
 
 Source code of our EMNLP 2025 Findings paper **Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions**.
 
