@@ -78,13 +78,25 @@ In order to evaluate our proposed prompt template in different dimensions, we se
 ## Citation
 If you find our work helpful, feel free to cite us:
 ```
-@misc{tang2025largelanguagemodelscare,
-      title={Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions}, 
-      author={Chenming Tang and Zhixiang Wang and Hao Sun and Yunfang Wu},
-      year={2025},
-      eprint={2408.08780},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2408.08780}, 
+@inproceedings{tang-etal-2025-large-language,
+    title = "Large Language Models Might Not Care What You Are Saying: Prompt Format Beats Descriptions",
+    author = "Tang, Chenming  and
+      Wang, Zhixiang  and
+      Sun, Hao  and
+      Wu, Yunfang",
+    editor = "Christodoulopoulos, Christos  and
+      Chakraborty, Tanmoy  and
+      Rose, Carolyn  and
+      Peng, Violet",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2025",
+    month = nov,
+    year = "2025",
+    address = "Suzhou, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.findings-emnlp.3/",
+    doi = "10.18653/v1/2025.findings-emnlp.3",
+    pages = "26--48",
+    ISBN = "979-8-89176-335-7",
+    abstract = "With the help of in-context learning (ICL), large language models (LLMs) have achieved impressive performance across various tasks. However, the function of descriptive instructions during ICL remains under-explored. In this work, we propose an ensemble prompt framework to describe the selection criteria of multiple in-context examples, and preliminary experiments on machine translation (MT) across six translation directions confirm that this framework boosts ICL performance. But to our surprise, LLMs might not care what the descriptions actually say, and the performance gain is primarily caused by the ensemble format, since it could lead to improvement even with random descriptive nouns. We further apply this new ensemble framework on a range of commonsense, math, logical reasoning and hallucination tasks with three LLMs and achieve promising results, suggesting again that designing a proper prompt format would be much more effective and efficient than paying effort into specific descriptions."
 }
 ```
